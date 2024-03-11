@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mento</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Madimi+One&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div>
+        <h1 class="navbar">
+            Mento
+
+        </h1>
+        <div class="container">
+            <div class="bookcontainer" id="bookcontainer" >
+                <h1>Mein Kampf</h1>
+                <h5>Adolf Hitler</h5>
+                <p>Lorem ipsum dolor sit amet.</p>
+                <button onclick="deletebook(event)">Delete</button>
+            </div>
+
+
+
+        </div>
+    </div>
+
+
+    <div class="popupoverlay">
+
+
+    </div>
+    <div class="popbox">
+        <h1>Add BooK</h1>
+        <form>
+            <input type="text" placeholder="Book Title" id="booktitle">
+            <input type="text" placeholder="Book Author" id="bookowner">
+            <textarea  placeholder="shortdescription" id="bookdescription"></textarea>
+            <button id="addbook">Add</button>
+            <button id="cancelbook">Cancel</button>
+        </form>
+
+    </div>
+
+<button class="pluss" id="pluss">+</button>
+
+
+
+
+
+
+
+
+
+
+
+ 
+<script src="script.js"></script>
+</body>
+</html>
